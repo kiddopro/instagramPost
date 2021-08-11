@@ -1,0 +1,84 @@
+* {
+  /* border: 1px dotted red; */
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+div.post-header div.text h1,
+div.post-header div.text p {
+  font-size: 0.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+div.post-header div.text {
+  margin-left: 10px;
+}
+
+div.post-header div.dots img {
+  width: 20px;
+  padding-top: 5px;
+}
+
+div.post {
+  background-color: white;
+  margin: 50px auto;
+  width: 370px;
+}
+
+.icon {
+  width: 20px;
+  overflow: hidden;
+}
+
+div.post-header {
+  padding: 10px;
+  display: flex;
+}
+
+div.post-header div.ico-html img {
+  width: 20px;
+  padding-top: 5px;
+}
+
+div.photo img {
+  width: 100%;
+  height: 300px;
+}
+
+div.post-footer {
+  padding: 15px;
+}
+
+div.footer-icons {
+  display: inline;
+}
+.save {
+  float: right;
+}
+.dots {
+  text-align: right;
+  width: 400px;
+}
+
+div.post-footer p.p-first,
+div.post-footer p.p-second {
+  font-weight: 400;
+}
+
+div.post-footer p.p-first {
+  font-size: 12px;
+}
+
+div.post-footer p.p-second {
+  font-size: 14px;
+}
+
+.heart,
+.comment,
+.send {
+  margin-right: 5px;
+}
